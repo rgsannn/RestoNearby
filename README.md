@@ -1,7 +1,7 @@
 # RestoNearby
 
 <p align="center">
-    <a href="https://laravel.com" target="_blank">
+    <a href="https://im-rgsan.com" target="_blank">
         <img src="app/src/main/res/drawable-v24/restaurant_location.png" width="100">
     </a>
 </p>
