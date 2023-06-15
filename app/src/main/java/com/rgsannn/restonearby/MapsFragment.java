@@ -32,6 +32,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -203,7 +204,10 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
                 String name = place.getString("name");
 
                 LatLng restaurantLatLng = new LatLng(lat, lng);
-                googleMap.addMarker(new MarkerOptions().position(restaurantLatLng).title(name));
+                googleMap.addMarker(new MarkerOptions()
+                        .position(restaurantLatLng)
+                        .title(name)
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_location)));
             }
         } catch (JSONException e) {
             e.printStackTrace();
