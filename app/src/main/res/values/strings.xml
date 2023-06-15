@@ -17,4 +17,5 @@
     <string name="startDesc">Dengan memanfaatkan sensor di perangkat Android dan Google Maps API, pengguna dapat mengetahui lokasi mereka secara real-time dan menavigasi ke tempat makan dengan mudah.</string>
 
     <string name="google_maps_api_key">AIzaSyAXt_Y6fp4tWobUbmjRYb9PrGxqeCcuKjI</string>
+    <string name="todo">TODO</string>
 </resources>
